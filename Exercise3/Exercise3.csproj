@@ -200,6 +200,10 @@
     <Compile Include="Migrations\202107061640555_Validator.Designer.cs">
       <DependentUpon>202107061640555_Validator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107061903037_ModelUpdate.cs" />
+    <Compile Include="Migrations\202107061903037_ModelUpdate.Designer.cs">
+      <DependentUpon>202107061903037_ModelUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Country.cs" />
@@ -207,6 +211,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Supplier.cs" />
     <Compile Include="Models\SupplierCategory.cs" />
+    <Compile Include="Models\SupplierExists.cs" />
     <Compile Include="Models\VatValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -489,6 +494,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202107061640555_Validator.resx">
       <DependentUpon>202107061640555_Validator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107061903037_ModelUpdate.resx">
+      <DependentUpon>202107061903037_ModelUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

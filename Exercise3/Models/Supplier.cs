@@ -11,6 +11,9 @@ namespace Exercise3.Models
         public int Id { get; set; }
 
         [Required]
+        [MaxLength(80)]
+        [MinLength(3)]
+        [SupplierExists]
         public string Name { get; set; }
 
         [Required]
