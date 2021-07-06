@@ -38,6 +38,7 @@ namespace Exercise3.Models
         [Required]
         [MaxLength(50)]
         [MinLength(5)]
+        [EmailAddress]
         public string Email { get; set; }
 
         [Required]
