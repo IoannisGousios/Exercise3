@@ -12,6 +12,7 @@ namespace Exercise3.Models
 
         [Required]
         [MaxLength(2)]
+        [Display(Name = "Country Code")]
         public string Code { get; set; }
 
         [Required]

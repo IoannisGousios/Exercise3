@@ -19,8 +19,8 @@ namespace Exercise3.Models
         public SupplierCategory SupplierCategory { get; set; }
 
         [Required]
-        [MaxLength(9)]
-        [MinLength(9)]
+        [VatValidator]
+        [Display(Name = "VAT Number")]
         public string TaxNumber { get; set; }
 
         [MaxLength(100)]
